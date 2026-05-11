@@ -9,4 +9,3 @@ logging.basicConfig(
 
 def registrar_error(mensaje):
     logging.error(mensaje)
-    

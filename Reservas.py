@@ -1,4 +1,4 @@
-from excepciones import *
+from Excepciones import *
 from datetime import datetime
 
 

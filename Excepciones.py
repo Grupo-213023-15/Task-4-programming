@@ -1,4 +1,4 @@
-Excepciones personalizadas 
+# Excepciones personalizadas 
 
 
 class ErrorReserva(Exception):

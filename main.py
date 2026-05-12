@@ -3,7 +3,7 @@
 # Simulación de 10 pruebas
 # ==============================
 
-from Entidades import cliente
+from Entidades import Cliente
 from servicios import ReservaSala, AlquilerEquipo, AsesoriaEspecializada
 from Reservas import Reserva
 
@@ -13,7 +13,7 @@ print("\n========= SIMULACIONES DEL SISTEMA =========\n")
 # SIMULACIÓN 1 - Reserva de sala válida
 # ---------------------------------------------------
 try:
-    cliente1 = cliente(1, "Maria", "maria@gmail.com")
+    cliente1 = Cliente(1, "Maria", "maria@gmail.com")
     servicio1 = ReservaSala(101, "Sala de Juntas", 2, 50000)
 
     reserva1 = Reserva(cliente1, servicio1, 2)

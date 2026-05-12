@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 
 # [21] clase abstracta para entidades generales
 class entidadsistema(ABC):
-    def__init__(self, id_entidad):
+    def __init__(self, id_entidad):
         self.id_entidad = id_entidad
     
     @abstractmethod
@@ -11,7 +11,7 @@ class entidadsistema(ABC):
     
 # [22] clase cliente con encapsulación de datos personales
 class cliente(entidadsistema):
-    def__init__(self, id_entidad, nombre, correo):
+    def __init__(self, id_entidad, nombre, correo):
         super().__init__(id_entidad)
         self.__nombre = nombre #atributo privado
         self.__correo = self.__validar_correo(correo)

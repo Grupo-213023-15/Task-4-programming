@@ -28,7 +28,7 @@ class ReservaSala(Servicio):
         total = self.horas * self.costo_por_hora
         return total - (total * descuento)
     def mostrar_detalle(self):
-    return f"Sala: {self.nombre} - Horas: {self.horas}"
+        return f"Sala: {self.nombre} - Horas: {self.horas}"
 
 # [cite: 11] Servicio especializado 2: Alquiler de Equipo
 class AlquilerEquipo(Servicio):

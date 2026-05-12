@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 from Entidades import EntidadSistema
 
 # [cite: 11] Clase abstracta Servicio que hereda de EntidadSistema
-class Servicio(ABC, EntidadSistema):
+class Servicio(EntidadSistema, ABC):
     def __init__(self, id_entidad, nombre):
         super().__init__(id_entidad)
         if not nombre:

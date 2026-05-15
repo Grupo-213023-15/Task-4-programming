@@ -19,3 +19,11 @@ class EntidadSistema(ABC):
     @abstractmethod
     def __str__(self):
         pass
+class Cliente(EntidadSistema):
+    def __init__(self, id_entidad, nombre, correo):
+        super().__init__(id_entidad)
+        self.nombre = nombre
+        self.correo = correo
+
+    def __str__(self):
+        return f"Cliente: {self.nombre} (Email: {self.correo})"

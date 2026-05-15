@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 from Entidades import EntidadSistema
 
 
-class Servicio(ABC, EntidadSistema):
+class Servicio(EntidadSistema, ABC):
     """
     Clase abstracta base para todos los servicios del sistema.
     Hereda de ABC y EntidadSistema para combinar abstracción e identidad.

@@ -12,3 +12,14 @@
 [ERROR] 2026-05-12 12:25:54.369589 - Debe confirmarse antes de procesar
 [ERROR] 2026-05-12 12:25:54.370571 - 'charmap' codec can't encode character '\u274c' in position 0: character maps to <undefined>
 [ERROR] 2026-05-12 12:25:54.371291 - La reserva ya está cancelada
+[ERROR] 2026-05-14 19:15:56.361543 - 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+[ERROR] 2026-05-14 19:15:56.362252 - 'charmap' codec can't encode character '\U0001f4b0' in position 0: character maps to <undefined>
+[ERROR] 2026-05-14 19:15:56.363529 - 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+[ERROR] 2026-05-14 19:15:56.364418 - 'charmap' codec can't encode character '\U0001f4b0' in position 0: character maps to <undefined>
+[ERROR] 2026-05-14 19:15:56.365276 - El cliente no puede ser nulo
+[ERROR] 2026-05-14 19:15:56.365891 - El servicio no existe
+[ERROR] 2026-05-14 19:15:56.366919 - Duración inválida
+[ERROR] 2026-05-14 19:15:56.367771 - Debe confirmarse antes de procesar
+[ERROR] 2026-05-14 19:15:56.368539 - 'charmap' codec can't encode character '\u274c' in position 0: character maps to <undefined>
+[ERROR] 2026-05-14 19:15:56.369264 - 'charmap' codec can't encode character '\u274c' in position 0: character maps to <undefined>
+[ERROR] 2026-05-14 19:15:56.369802 - La reserva ya está cancelada

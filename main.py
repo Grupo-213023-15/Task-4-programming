@@ -4,7 +4,7 @@
 # ==============================
 
 from Entidades import Cliente
-from servicios import ReservaSala, AlquilerEquipo, AsesoriaEspecializada
+from Servicios import ReservaSala, AlquilerEquipo, AsesoriaEspecializada
 from Reservas import Reserva
 
 print("\n========= SIMULACIONES DEL SISTEMA =========\n")

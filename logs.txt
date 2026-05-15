@@ -24,3 +24,5 @@
 [ERROR] 2026-05-14 19:15:56.369264 - 'charmap' codec can't encode character '\u274c' in position 0: character maps to <undefined>
 [ERROR] 2026-05-14 19:15:56.369802 - La reserva ya está cancelada
 [ERROR] 2026-05-14 19:43:19.555072 - El servicio no existe
+[ERROR] 2026-05-14 19:58:29.928059 - El servicio no existe
+[ERROR] 2026-05-14 19:58:39.672520 - El servicio no existe
